@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--important tags : these are important settings for your machine to know more about your code and how to display it-->
+    <meta charset="utf-8">
+    <!--
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--title-->
+    <title>ABOUT US </title>
+    
+    <!--google fonts(the fonts that we are going to use in this tutorial: raleways and  open sans)-->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700&display=swap" rel="stylesheet">
+     <!--Link for open sans font type and its values-->  
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap" rel="stylesheet">
+     
+    <!--Linking fontawesome file with html-->
+    <link rel="stylesheet" href="css/fontawesome/css/font-awesome.min.css">
+
+    <!--Linking bootstrap file to html-->
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+
+    <!--Linking the css file to html-->
+
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style/style.css">
+</head>
+
+<body>
+        <nav>
+            <div class="logo">
+                <h5>COVID<span>19</span></h5>
+            </div>
+            <ul class="menu">
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="Details.html">Details</a></li>
+                <li><a href="CovidTracker.html">CovidTracker</a></li>
+                <li><a href="ContactUs.html">Feedback</a></li>
+            </ul>
+            <div class="bar">
+                <div class="bar-1"></div>
+                <div class="bar-2"></div>
+                <div class="bar-3"></div>
+            </div>
+        </nav>
+    
+    <div class="banner" style="background-image: url('covid19-image.jpg');">
+    
+    <script>
+        const sidenav = () => {
+            const menu = document.querySelector('.bar');
+            const nav = document.querySelector('.menu');
+            
+            menu.addEventListener('click', () => {
+               menu.classList.toggle('bar-active');
+                nav.classList.toggle('nav-active');
+            });
+        }
+        sidenav();
+    </script>
+
+ <section id="ABOUT">
+     <div class="about-1">
+         <h1> ABOUT US </h1>
+         <P>Our website motive is to educate and interest anyone and everyone about COVID-19</P>
+     </div>
+     <div id="about-2">
+     <div class="content-box-lg">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-4">
+                    <div class="about-item text-center">
+                     <i class="fa fa-heartbeat"></i>
+                     <h3>MISSION</h3>
+                     <hr>
+                     <p>Our COVID-19 website strives to educate people all around the world to give the most accurate data about COVID19 <br> cases around the world.  </p>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="about-item text-center">
+                     <i class="fa fa-plus-square"></i>
+                     <h3>VISION</h3>
+                     <hr>
+                     <p> Our website seeks give the world reliable data to update the world on the live cases of COVID19, and hopefully we will not be using this app any more.  </p>
+                     </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="about-item text-center">
+                     <i class="fa fa-hospital-o"></i>
+                     <h3>VALUES</h3>
+                     <hr>
+                     <p> Integrity - I adhere to the highest standard of professional conduct and ethical behaviour.
+                        <br>Care - We want to show our care towards the world a step by a step by providing accurate data. </p>
+                     </div>
+                  </div>
+              </div>
+            </div>
+         </div>
+      </div>   
+ </section>
+</div>
+</header>
+<!--our footer -->
+ 
+<footer class="text-center">
+    <p>Copyright &copy; 2021 All rights reserved by Freddie Nice Inc.</p>
+</footer>
+</body>
+</html>
+
+<!--if you manage it to this far, congratulations, check more on https://devhubke.com/projects-->
